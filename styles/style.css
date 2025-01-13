@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather Sans", serif;
+}
+
+section {
+  padding: 40px 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 100px;
+}
+
+.first-banner {
+  height: 500px;
+  width: 100%;
+  background: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
+    url("../new-year-project/images/Banner\ Image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.first-banner p,
+h2 {
+  color: white;
+}
+.first-banner p {
+  font-size: 30px;
+}
+.first-banner h2 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.first-banner img {
+  height: 100%;
+  width: 100%;
+}
+
+.second-banner {
+  height: 500px;
+  width: 60%;
+
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.second-banner h1 {
+  font-size: 50px;
+  color: rgb(255, 0, 0);
+  margin-bottom: 15px;
+}
+
+.second-banner .off-section {
+  height: 50%;
+  width: 100%;
+}
+.second-banner p {
+  font-size: 14px;
+  color: rgb(255, 0, 0);
+  margin-bottom: 20px;
+}
+
+.second-banner h4 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.second-banner .sec-image-section {
+  height: 50%;
+  width: 100%;
+  padding: 0px 40px;
+}
+
+.sec-image-section img {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.third-banner {
+  height: 500px;
+  width: 100%;
+  border-radius: 16px;
+  background: linear-gradient(90deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
+    url("../new-year-project/images/Vectorrr.png");
+  border-radius: 16px;
+  padding: 20px 80px;
+  display: flex;
+  align-items: center;
+}
+
+.third-banner .details {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  color: white;
+  gap: 20px;
+}
+
+.third-banner .details h1 {
+  font-size: 50px;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+}
+
+.third-banner .details p {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 10px;
+}
+
+.third-banner .details button {
+  height: 30px;
+  width: 100px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.third-banner .twofour {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.third-banner .twofour img {
+  height: 90%;
+  width: 80%;
+}
+
+.four-banner {
+  height: 300px;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  padding: 20px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.four-banner h4 span {
+  color: rgb(255, 0, 0);
+}
+
+.four-banner button {
+  height: 30px;
+  width: 100px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+}
+
+.fifth-banner {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fifth-banner div {
+  height: 100%;
+  flex: 1;
+  /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+  gap: 20px;
+}
+
+.fifth-banner p {
+  font-size: 16px;
+  color: rgb(255, 0, 0);
+}
+
+.fifth-banner h2 {
+  color: black;
+  font-size: 30px;
+}
+
+.fifth-banner span {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 14px;
+}
+.fifth-banner .first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.fifth-banner .second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.fifth-banner .second .image-box {
+  height: 95%;
+  width: 90%;
+  border: 10px solid rgb(255, 0, 0);
+  border-radius: 1000%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fifth-banner .second .image-box img {
+  height: 85%;
+  width: 80%;
+
+  border-radius: 1000%;
+}
+.third {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.third h1 {
+  color: rgb(255, 0, 0);
+  font-size: 30px;
+}
+
+.third p {
+  color: rgba(7, 2, 17, 0.6);
+}
+.third div {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.third .imagebox {
+  height: 30%;
+  width: 100%;
+}
+
+.third .imagebox img {
+  height: 100%;
+  width: 80%;
+}
+
+.sixth-banner {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.holidays {
+  height: 30%;
+  width: 70%;
+  padding: 10px;
+}
+.holidays p {
+  text-align: center;
+  font-weight: bold;
+}
+.holidays h1 {
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 91px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.holidays span p {
+  color: rgba(7, 2, 17, 0.6);
+}
+.gift-box {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-image: url("../new-year-project/images/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border-radius: 10px;
+}
+
+.gift-item {
+  height: 100%;
+  width: 50%;
+}
+.gift-item img {
+  height: 400px;
+  width: 500px;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+.fiftypercent {
+  height: 100%;
+  width: 50%;
+  position: relative;
+}
+.fiftypercent img {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 60px;
+  right: 80px;
+}
+
+.seventh-banner {
+  height: 700px;
+  width: 100%;
+  display: flex;
+
+  flex-direction: column;
+  gap: 15px;
+}
+
+.seventh-banner .caption {
+  font-size: 13px;
+  color: rgb(255, 0, 0);
+}
+
+.seventh-banner h1 {
+  font-size: 30px;
+}
+
+.seventh-banner .des {
+  width: 600px;
+  color: rgba(7, 2, 17, 0.6);
+}
+
+.seventh-banner .port-design {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+  grid-gap: 10px; /* Adds space between the items */
+  padding: 10px;
+}
+
+.port-design .image-port {
+  height: 250px;
+  width: 300px;
+  border-radius: 10px;
+  flex: 1;
+  
+}
+
+.port-design .image-port img {
+  height: 100%;
+  width: 100%;
+}
+.port-design .image-port:hover{
+  box-shadow: 0px 0px 2px black;
+}
+.eighth-banner{
+  height: 500px;
+  width: 100%;
+  border-radius: 16px;
+
+background: rgba(255, 0, 0, 0.05);
+}
